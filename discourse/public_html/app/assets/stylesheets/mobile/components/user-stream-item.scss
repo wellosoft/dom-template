@@ -1,0 +1,21 @@
+// Mobile styles for "user-stream-item" component
+.user-stream {
+  .name {
+    vertical-align: middle;
+  }
+
+  .notification {
+    &.unread {
+      background-color: dark-light-choose(
+        $tertiary-low,
+        srgb-scale($tertiary, $secondary, 15%)
+      );
+    }
+  }
+
+  .group-member-info {
+    .name {
+      vertical-align: inherit;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+ar:
+  js:
+    poll:
+      voters:
+        zero: "لا أحد صوّت"
+        one: "واحد صوّت"
+        two: "إثنان صوّتا"
+        few: "صوّتوا"
+        many: "صوّتوا"
+        other: "الناخبين"
+      total_votes:
+        zero: "لم يصوت أحد"
+        one: "صوت واحد"
+        two: "صوتان"
+        few: "مجموعة من الأصوات"
+        many: "العديد من الأصوات"
+        other: "مجموع الأصوات"
+      average_rating: "متوسط التقييمات: <strong>%{average}</strong> "
+      cast-votes:
+        title: "أدلِ بصوتك"
+        label: "صوّت اﻵن!"
+      show-results:
+        title: "اعرض نتائج التصويت"
+        label: "أظهر النتائج"
+      hide-results:
+        title: "ارجع إلى أصواتك"
+      export-results:
+        label: "تصدير"
+      open:
+        title: "افتح التّصويت"
+        label: "افتح"
+        confirm: "أمتأكد من فتح هذا التّصويت؟"
+      close:
+        title: "أغلق التّصويت"
+        label: "أغلق"
+        confirm: "أمتأكد من إغلاق هذا التّصويت؟"
+      error_while_toggling_status: "عذرا، حدثت مشكلة في تبديل حالة هذا التّصويت."
+      error_while_casting_votes: "عذرا، حدث خطأ عند الإدلاء بأصواتكم."
+      error_while_fetching_voters: "عذرا، حدث خطأ في عرض الناخبين."
+      ui_builder:
+        title: انشأ تصويتا
+        insert: أدرج التصويت
+        help:
+          invalid_values: يجب أن تكون القيمة الدّنيا أصغر من القيمة العليا.
+          min_step_value: قيمة الخطوة الدنيا هي 1
+        poll_type:
+          label: النوع
+          regular: اختيار من متعدد
+          multiple: عدّة خيارات
+          number: تقييم عددي
+        poll_result:
+          label: 'نتائج '
+        poll_config:
+          max: الحد الأقصى
+          min: الحد الأدنى
+          step: الخطوة
+        poll_public:
+          label: أظهر الناخبين
+        poll_options:
+          label: أدخل خيارًا واحدًا في كل سطر

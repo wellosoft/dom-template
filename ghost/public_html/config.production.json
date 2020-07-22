@@ -1,0 +1,22 @@
+{
+    "url": "http://${DOM}",
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host"     : "localhost",
+            "user"     : "${MYSQL_USER}",
+            "password" : "${PASS}",
+            "database" : "${DB_MYSQL}"
+        }
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "logging": {
+        "level": "info",
+        "rotation": {
+            "enabled": true
+        },
+        "transports": ["file", "stdout"]
+    }
+}
